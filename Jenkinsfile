@@ -8,7 +8,7 @@ pipeline {
       }
     stage("test"){
       steps {
-        echo 'testing the application....Dev'
+        echo 'testing the application....Dev '
         }
       }
     stage("deploy"){
